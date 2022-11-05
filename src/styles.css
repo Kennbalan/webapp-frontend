@@ -1,0 +1,155 @@
+/* You can add global styles to this file, and also import other style files */
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {font-family: 'Inter', sans-serif;} 
+
+
+.header {
+    background: #FFFFFF;
+    box-shadow: 0px -5px 20px rgba(47, 128, 237, 0.05), 0px 10px 30px 3px rgba(81, 108, 179, 0.12);
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 1;
+}
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header-bar {
+    display: flex;
+    align-items: center;
+}
+.dashboard a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #0049C6;
+}
+.header-dropdown {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 7, 35, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+}
+.dropdown-text h3 {
+    margin: 0 0 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000723;
+}
+.dropdown-text span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #868686;
+}
+.dropdown-content {
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}.dropdown-text {
+    padding: 0 43px 0 0;
+}
+.dashboard {
+    padding: 0 40px 0 0;
+}
+
+.banner-section { position: relative;}
+.banner-section img {width: 100%;}
+
+.section-box h4 {
+    margin: 0 0 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #1B1D21;
+}
+.section-box p {
+    margin: 0 0 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #868686;
+}
+.section-box a {
+    display: inline-block;
+    background: #6D5DD3;
+    border-radius: 5px;
+    height: 48px;
+    line-height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0 30px;
+    text-decoration: none;
+}
+.section {
+    padding: 100px 0;
+}
+.footer {
+    background: #1B1D21;
+    padding: 65px 0;
+}
+
+.footer-box p {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-box p a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 40px;
+    border-bottom: 1px solid #fff;
+}
+.social-media {
+    text-align: center;
+    padding: 40px 0 0;
+}
+.social-media a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px;
+}
